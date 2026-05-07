@@ -2,19 +2,18 @@
 
 A collection of Claude Code extensions by [Jason Siegel](https://github.com/jasonesiegel).
 
-## Contents
+This repo contains two kinds of extensions, which install **differently**:
 
-### Scripts
+- **Scripts** — single-file utilities (e.g. statuslines) you wire into `~/.claude/settings.json`. Clone this repo and point `settings.json` at the script.
+- **Plugins** — Claude Code plugins installed via `/plugin marketplace add`. **None published yet** — this repo is not a plugin marketplace today. `/plugin marketplace add jasonesiegel/claude-code-extensions` will not work until the first plugin ships.
 
-- **[pacekit-statusline/](./pacekit-statusline)** — Two-line statusline with velocity-based pace coloring for context + 5-hour / 7-day rate-limit windows.
+## Scripts
 
-## Installing scripts
+- **[pacekit-statusline/](./pacekit-statusline)** — Two-line statusline with velocity-based pace coloring for context + 5-hour / 7-day rate-limit windows. See its README for install steps.
 
-See each directory's README for install instructions.
+## Plugins
 
-## Coming soon
-
-- A peer-to-peer collaboration plugin (`chatroom`) — work in progress.
+None yet. The first plugin (`chatroom` — peer-to-peer collaboration) is in progress; once it lands, this repo will also be installable as a marketplace.
 
 ## License
 
